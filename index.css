@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    padding-top: 35px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__title{
+    margin-top: 25px;
+    width: 30%;        
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
+.header__presentation{  
+    vertical-align: top;      
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+ 
+}
+.header__presentation--description{
+    text-align: justify;
+}
+.header__presentation--title{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.image-container{
+    margin: 15px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-around;   
+    margin-bottom: 105px;   
+
+} 
+
+.image-container__card{
+    width: 28%;
+    height: 250px;   
+    margin-top: 55px;    
+    /* border: thin solid #000; */
+    height: fit-content;
+
+    
+}
+.image-container__card--image{
+    width: 90%;
+    height: 90%;
+}
+
+.image-container__card--caption{
+    font-size: 10px;
+}
+
+.card-down{
+    margin-top: 205px;
+}
+.image-container__card--caption{
+    font-weight: 600;
+}
+footer{
+    color: rgb(140, 140, 140);
+    text-align: center;
+    display: block;
+    font-size:14px;
+    padding: 25px;
+}
+.image-container__card--block{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header{
+        padding-top: 35px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__title{
+        margin-top: 25px;
+        width: 90%;        
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+   
+    }
+    .header__presentation{        
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+     
+    }
+    .header__presentation--title{
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .image-container{
+        margin: 55px auto;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;   
+        justify-content: space-around;
+
+ 
+
+    } 
+
+    .image-container__card{
+        width: 160px;
+        height: 200px;   
+        margin-top: 25px;
+        /* border: thin solid #000; */
+
+        
+    }
+    .image-container__card--image{
+        width: 85%;
+        height: 85%;
+    }
+ 
+    .image-container__card--caption{
+        font-size: 10px;
+    }
+
+    .card-down{
+        margin-top: 85px;
+    }
+    .zoro-card{
+        margin-top: 15px;
+    }
+    .img-label{
+        height: 60px;
+    }
+    
+}
+
